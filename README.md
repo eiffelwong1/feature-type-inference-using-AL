@@ -11,6 +11,18 @@ Note: Older undocumented versions of our work can be found in `colab_notebooks/o
 ## Dependencies
 The entire dependency list from the virtual environment used for our experiments can be found in the [requirements.txt](https://github.com/eiffelwong1/feature-type-inference-using-AL/blob/main/requirements.txt) file. We use Python version `3.8.6` for our experiments.
 
+## File Structure
+.
+├── README.md
+├── RulebookForLabeling.pdf 
+├── active_learning.ipynb       # main active learning notebook
+├── active_learning_alt.ipynb   # notebook with some additional graph plotting
+├── older_versions              # older version of the notebooks
+├── requirements.txt
+└── utility
+    ├── data_split_234.ipynb    # notebook for creating stratified training and simulation data split
+    └── plotter.ipynb           # contains some graph plotting function
+
 ## Benchmark
 The benchmark dataset for the feature type inference problem is obtained from SortingHat's [ML-Data-Prep-Zoo](https://github.com/pvn25/ML-Data-Prep-Zoo/tree/master/MLFeatureTypeInference). For further details about the project, visit: [SortingHat](https://adalabucsd.github.io/sortinghat.html)
 

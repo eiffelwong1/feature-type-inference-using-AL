@@ -10,3 +10,7 @@ Note: Older undocumented versions of our work can be found in `colab_notebooks/o
 
 ## Dependencies
 The entire dependency list from the virtual environment used for our experiments can be found in the [requirements.txt](https://github.com/eiffelwong1/feature-type-inference-using-AL/blob/main/requirements.txt) file. We use Python version `3.8.6` for our experiments.
+
+### Members
+- Rahul Patil (MS CSE Student, UCSD)
+- Sing Wong (MS CSE Student, UCSD)
